@@ -1,0 +1,10 @@
+General configuration:
+
+git config --global user.name <your git username in double quotes>
+git config --global user.email <the corresponding email (no quotes)>
+
+Cloning:
+(in some directory)
+
+git init
+git clone <link>
