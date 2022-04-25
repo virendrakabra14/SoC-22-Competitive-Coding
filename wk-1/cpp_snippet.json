@@ -1,0 +1,95 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"cp": {
+		"prefix": "cp",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"// mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());",
+			"// mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());",
+			"// Usage: rng(), rng.min(), rng.max()",
+			"",
+			"#define F first",
+			"#define S second",
+			"#define pb push_back",
+			"#define mp make_pair",
+			"#define rep(i,a,b) for (int i=a; i<b; i++)",
+			"",
+			"typedef unsigned long long ull;",
+			"typedef long long ll;",
+			"typedef vector<int> vi;",
+			"typedef vector<vector<int> > vvi;",
+			"typedef pair<int,int> pii;",
+			"typedef map<int,int> mii;",
+			"",
+			"void solve() {",
+			"\t",
+			"}",
+			"",
+			"void precalc() {",
+			"\t",
+			"}",
+			"",
+			"int main() {",
+			"\t",
+			"\t// freopen(\"input.txt\", \"r\", stdin);",
+			"\t// freopen(\"output.txt\", \"w\", stdout);",
+			"\t",
+			"\tios_base::sync_with_stdio(false); cin.tie(0);",
+			"\t",
+			"\t// precalc()",
+			"\t",
+			"\t// int t; cin>>t;",
+			"\t// while(t--) solve();",
+			"\t$0",
+			"\t",
+			"}"
+		],
+		"description": "cp"
+	},
+
+	"fori": {
+		"prefix": "fori",
+		"body": [
+			"for (int i=0; i<$0; i++) {",
+			"\t",
+			"}"
+		],
+		"description": "fori"
+	},
+
+	"forj": {
+		"prefix": "forj",
+		"body": [
+			"for (int j=0; j<$0; j++) {",
+			"\t",
+			"}"
+		],
+		"description": "forj"
+	},
+
+	"fork": {
+		"prefix": "fork",
+		"body": [
+			"for (int k=0; k<$0; k++) {",
+			"\t",
+			"}"
+		],
+		"description": "fork"
+	},
+
+}
