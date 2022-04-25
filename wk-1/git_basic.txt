@@ -3,8 +3,28 @@ General configuration:
 git config --global user.name <your git username in double quotes>
 git config --global user.email <the corresponding email (no quotes)>
 
+---
+
 Cloning:
 (in some directory)
 
 git init
 git clone <link>
+
+---
+
+Commands to push onto your remote repository:
+(in a directory)
+
+git init
+git remote add <some name> <link>			// this adds a remote repo that we can use by <some name>
+	e.g. git remote add origin <link>
+You can use "git status" to see the status of your files
+git add <file paths>					// adds changes in the working directory to the staging area
+	Note: to add the entire directory, just use "git add ."
+Can again use "git status" to see the status of files (added or not)
+git commit -m "some message for this commit"
+git push <the name you used for this remote repo> <branch name>
+
+Since by default the branch on GitHub would be named "main" (once you create a repository there), you should do:
+git checkout -b main, and then push (e.g. git push origin main)
