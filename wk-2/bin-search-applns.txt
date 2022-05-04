@@ -1,0 +1,11 @@
+- https://www.techiedelight.com/binary-search-interview-questions/
+
+- Find position of number in infinite sorted array: https://www.youtube.com/watch?v=FzvK5uuaki8&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=13
+
+- Median of row-wise sorted array: https://www.youtube.com/watch?v=63fPPOdIr2c
+
+- https://www.tutorialcup.com/interview/matrix/k-th-smallest-element-in-a-sorted-matrix.htm#Binary_Search
+
+- Search for an element in a 2D matrix, that is sorted both row and column-wise
+	Method1 (similar to Binary Search) - https://www.geeksforgeeks.org/search-in-a-row-wise-and-column-wise-sorted-2d-array-using-divide-and-conquer-algorithm/
+	Method2 - https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
