@@ -1,0 +1,11 @@
+Building Teams: think of the solution as a bipartite graph. Use 2 coloring (bfs/dfs) to get the sets.
+
+Round Trip: just find a cycle, but also need to output it [modify the recursive dfs function a bit for this].
+
+-----
+
+Shortest Paths II: Floyd-Warshall
+
+Monsters: use bfs for all monsters (at once) first. Then use A as bfs source to get shortest distances from it. If for any cell, shortest distance from any monster (computed in part-1) is <= shortest distance from A (computed in part-2), then it can't be used by person. Use dfs on the "can-be-used" cells to find path from A to boundary, if possible.
+
+High Score: Bellman-Ford [negative, directed edges] on reverse-sign edges. If negative cycle, then check if vertex '1' is part of some negative cycle [use DFS with reverse-edges on the vertices that didn't stabilize (to get hold of their negative cycles)].
