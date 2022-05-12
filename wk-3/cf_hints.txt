@@ -1,0 +1,5 @@
+1627C: CF tutorial (link on the question page: https://codeforces.com/blog/entry/99067)
+1600J: CF tutorial (link on the question page)
+1593E: CF tutorial (link on the question page)
+1611E1: (very similar to Monsters problem on CSES: https://usaco.guide/problems/cses-1194-monsters/solution)
+1611E2: https://www.youtube.com/watch?v=7OuwZDHBXAA
