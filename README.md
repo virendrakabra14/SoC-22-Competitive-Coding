@@ -1,1 +1,1 @@
-SoC 2022: Competitive Coding
+### SoC 2022: Competitive Coding

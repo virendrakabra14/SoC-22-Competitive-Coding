@@ -54,13 +54,15 @@ int main() {
 
     queue<int> Q;
     Q.push(src);
+    visited[src]=1;                     // change: make it visited
 
     while(!Q.empty()) {
         int x = Q.front();
-        visited[x]=1;
         Q.pop();
+        // visited[x]=1;                // not here
         for (auto i:adj[x]) {
             if(!visited[i]) {
+                visited[i]=1;           // change: make it visited here itself
                 dist[i] = dist[x]+1;
                 Q.push(i);
             }

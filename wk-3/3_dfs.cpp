@@ -37,11 +37,11 @@ int time1=0;
 void dfs(int v) {               // if not using adj, etc. as global var.s,
                                 // then remember to pass by reference (or using pointers)
                                 // passing by value copies entire stuff, so increases execution time
-    visited[v]=1;
     arrival[v]=time1;
     time1++;
     for(auto i:adj[v]) {
         if(!visited[i]) {
+            visited[i]=1;               // make visited here
             dfs(i);     // recursion
             parent[i]=v;
         }
@@ -70,6 +70,7 @@ int main() {
 
     for (int i=0; i<n; i++) {           // loop, in case there are more than 1 connected components
         if(!visited[i]) {
+            visited[i]=1;               // make visited here
             dfs(i);
             parent[i]=-1;
         }
