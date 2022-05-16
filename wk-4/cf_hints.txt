@@ -1,0 +1,1 @@
+1676H2: read the tutorial. Can do it by counting inversions (just a slight modification of the code discussed: make inv increase when a[i]>=a[j], and use long long)
