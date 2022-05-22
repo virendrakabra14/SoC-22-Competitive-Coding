@@ -1,0 +1,5 @@
+Minimizing Coins: unbounded knapsack
+Coin Combinations II: dp[i][j] = no. of ordered & distinct ways to make a sum of i, using the first j coins only.
+                                Similar dp state also used in the Partition Problem:
+                                No. of ways a number can be partitioned into.
+                                Recurrence is: p(n,k) = p(n−k,k) + p(n-1,k-1)
